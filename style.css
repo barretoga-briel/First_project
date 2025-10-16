@@ -1,0 +1,74 @@
+body {background-image: url(Imagens/fundo.png);}
+
+header {
+    background-color: #c5c5b2;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0px;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #333;
+}   
+
+p {
+    margin: 30px 500px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}   
+
+.Campanhas {
+    display: block;
+    border: 5px solid;
+    border-color: #c5c5b2;
+    margin: auto;
+}
+
+footer {
+    background-color: #c5c5b2;
+    text-align: center;
+    padding: 10px 0;
+    position: end;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.capa { 
+    display: block;
+    margin: auto;
+    width: 50%;
+    }
+
+.campanha {
+    display: block;
+    border: 5px solid;
+    border-color: rgb(17, 66, 4);
+    margin: auto;
+    
+
+}
